@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642761065482",
+    "project_id": "ungshownoti",
+    "storage_bucket": "ungshownoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642761065482:android:545153bd120e18ed94cbf3",
+        "android_client_info": {
+          "package_name": "com.flutterthailand.unghshownoiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642761065482-di5qgugrqhs320attnbsom734ml10n05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjV26so-H_mai4Nj8_REq_i3YnJrhdaYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642761065482-di5qgugrqhs320attnbsom734ml10n05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
