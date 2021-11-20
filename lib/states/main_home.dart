@@ -13,7 +13,15 @@ class _MainHomeState extends State<MainHome> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    setUpFirebaseMessage();
+    // setUpFirebaseMessage();
+
+    FirebaseMessaging.onMessage.listen((RemoteMessage event) {
+      print("message reciev ed");
+      print(event.notification!.body);
+    });
+    FirebaseMessaging.onMessageOpenedApp.listen((message) {
+      print('Message clicked!');
+    });
   }
 
   Future<void> setUpFirebaseMessage() async {
